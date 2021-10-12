@@ -13,7 +13,7 @@ dropdown.addEventListener("click", function () {
 });
 
 
-const dropdown_close = document.querySelector(".hamburger-menu > a");
+const dropdown_close = document.querySelector(".hamburger-menu > .close");
 
 //chiudere il menu
 dropdown_close.addEventListener("click", function () {
